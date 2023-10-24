@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="../media/rickAndMortyTitle.png" alt="Logo principal de Rick and Morty">
+        <!-- <nav>
+            <div class="headerNav">
+                <a class="navLinks" href="../index.html">Home</a>
+            </div>
+
+            <div class="headerNav">
+                <a class="navLinks" href="characters.html">Characters</a>
+            </div>
+
+            <div class="headerNav">
+                <a class="navLinks" href="contact.html">Contact</a>
+            </div>
+
+            <div class="headerNav">
+                <a class="navLinks" href="chapters.html">Chapters</a>
+            </div>
+
+            <div class="headerNav actualPage">
+                <a class="navLinks" href="about.html">about</a>
+            </div>
+        </nav> -->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary headerNav">
+            <div class="container-fluid navFixer">
+                <a class="navbar-brand navLinks navLinksFirst" href="../index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse row colapseFixer" id="navbarNav">
+                    <ul class="navbar-nav navLinksFixer">
+                        <li class="nav-item navLinks">
+                            <a class="nav-link " aria-current="page" href="characters.html">Characters</a>
+                        </li>
+                        <li class="nav-item navLinks">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item navLinks">
+                            <a class="nav-link " href="chapters.html">Chapters</a>
+                        </li>
+                        <li class="nav-item navLinks actualPage">
+                            <a class="nav-link" href="about.html">about</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>About</h1>
+
+        <div class="paragraphBackground">
+            <P class="paragraphStyle">Rick and Morty is an American adult animated science fiction sitcom created by
+                Justin Roiland and Dan Harmon in 2013 for Cartoon Network's nighttime programming block Adult Swim. The
+                series follows the misadventures of Rick Sanchez, a cynical mad scientist, and his good-hearted but
+                fretful grandson Morty Smith, who split their time between domestic life and interdimensional adventures
+                that take place across an infinite number of realities, often traveling to other planets and dimensions
+                through portals and on Rick's flying saucer. The general concept of Rick and Morty relies on two
+                conflicting scenarios: domestic family drama, and a misanthropic grandfather dragging his grandson into
+                hijinks.</P>
+        </div>
+
+        <h3 class="spoiler">! ! Spoiler Alert ! !</h3>
+
+        <div class="container">
+            <div class="arrow" onclick="toggleContent(this)">▶</div>
+            <p class="seasonTitle">Season 1</p>
+            <div class="content">
+                <p class="chapterTitle">Chapter 1: Pilot</p>
+                <p class="paragraphStyle">Sociopathic scientist, Rick, and innocent grandson, Morty, begin a series of
+                    dangerous and unpredictable adventures. In this first chapter, the protagonists go to another
+                    dimension to look for seeds of 'mega-trees'. Meanwhile, Morty's parents (Jerry and Beth) argue about
+                    the influence that the grandfather can have on the grandson.</p>
+                <p class="chapterTitle">Chapter 2: Lawnmower Dog Pilot</p>
+                <p class="paragraphStyle">Scientist Rick invents a device to make the family dog smarter. However, the
+                    results are not as expected and are totally disastrous. In addition, the grandfather and grandson
+                    try to get into the dreams of Morty's math teacher. The goal is for the teacher to give Morty an
+                    'A'.</p>
+                <p class="chapterTitle">Chapter 3: Anatomy Park</p>
+                <p class="paragraphStyle">Morty ends up in an infectious disease theme park, which is inside a homeless
+                    man. This is due to one of his grandfather's crazy inventions. On the other hand, Jerry tries to
+                    make a Christmas without electronic devices. This plan goes awry when his parents introduce him to
+                    his new lover.</p>
+                <p class="chapterTitle">Chapter 4: M. Night Shaym-Aliens! </p>
+                <p class="paragraphStyle">In this fourth chapter, the protagonists try to find out a mystery that causes
+                    unexpected turns. Rick, Morty, and Jerry are sent to an alternate reality by the aliens. While the
+                    scientist tries to find a way out of the place, his son-in-law Jerry proposes absurd slogans to sell
+                    apples.</p>
+                <p class="chapterTitle">Chapter 5: Meeseeks and Destroy </p>
+                <p class="paragraphStyle">In this fifth chapter, the grandson has had enough of his grandfather's crazy
+                    adventures. Therefore, Morty wants to start an adventure that is supposedly less dangerous. In
+                    addition, Rick gives a solution to the family's problems. Meanwhile, Jerry demands the help of some
+                    creatures to play golf.</p>
+                <p class="chapterTitle">Chapter 6: Rick Potion #9</p>
+                <p class="paragraphStyle">
+                    Rick creates a portion of love for his grandson to conquer Jessica during prom. But, nothing happens
+                    as they expected and things start to get out of control quickly. This portion of love mixes with the
+                    flu becoming viral and infecting the entire Earth. The grandfather and grandson try to fix the
+                    problem with another disaster.</p>
+                <p class="chapterTitle">Chapter 7: Raising Gazorpazorp</p>
+                <p class="paragraphStyle">Morty convinces his grandfather to buy him a sex robot. The problems begin
+                    when Morty has a baby with said robot. Rick and Morty's sister, Summer, travel to the robot's planet
+                    and are trapped. While Rick and Summer try to get out of this dangerous dimension, the alien baby
+                    quickly becomes an adult.</p>
+                <p class="chapterTitle">Chapter 8: Rixty Minutes</p>
+                <p class="paragraphStyle">The scientist is fed up with what they broadcast on television, so he installs
+                    an interdimensional cable. This cable allows you to watch programs from other dimensions. Rick tells
+                    his invention to the family and they all put on special glasses to see their alternate selves. These
+                    viewings bring to light the most hidden secrets of the family.</p>
+                <p class="chapterTitle">Chapter 9: Something Ricked This Way Comes</p>
+                <p class="paragraphStyle">
+                    Summer has a new job at a pawnshop owned by the devil. This does not convince Rick and he confronts
+                    his granddaughter's boss. On the other hand, Jerry and Morty begin to carry out a science project.
+                    The project consists of the solar system and, father and son, argue about whether Puton is a planet
+                    or not. To resolve this conflict, Jerry and Morty travel to the planet.</p>
+                <p class="chapterTitle">Chapter 10: Close Rick-counters of the Rick Kind</p>
+                <p class="paragraphStyle">Rick has been living at his daughter's house for a year now, so they
+                    celebrate. During breakfast, Rick and Morty are kidnapped by a group of alternate Ricks. The
+                    grandfather and grandson are taken to appear before a council for crimes against the Ricks, falsely
+                    accused. When Rick finds himself cornered by the council, he decides to flee with his grandson from
+                    the place.</p>
+                <p class="chapterTitle">Chapter 11: Ricksy Business </p>
+                <p class="paragraphStyle">Beth and Jerry go on vacation and leave the house in charge of Rick. Beth
+                    doesn't want strange adventures in his absence, so she makes it clear to her father that if this
+                    happens she won't have any more affairs with Morty. Rick and Summer throw a party, although Morty
+                    doesn't think it's a good idea. Morty was right and the party will get out of hand.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="arrow" onclick="toggleContent(this)">▶</div>
+            <p class="seasonTitle">Season 2</p>
+            <div class="content">
+                <p class="chapterTitle">Chapter 1: A Rickle in Time</p>
+                <p class="paragraphStyle">After the party, the house is a mess and Rick freezes time for six months.
+                    When the scientist decides to thaw it, the grandfather and his grandchildren appear in a parallel
+                    dimension. A being tries to stop them and Rick creates an invention, which causes both dimensions,
+                    to get rid of it. On the other hand, Beth and Jerry continue with their journey and get into
+                    trouble.</p>
+                <p class="chapterTitle">Chapter 2: Mortynight Run</p>
+                <p class="paragraphStyle">Rick teaches his grandson how to drive the spaceship. Rick sells weapons to an
+                    alien assassin so he can spend the afternoon in a living room playing video games. When Morty finds
+                    out, he tries to stop the killer instead of being with his grandfather playing. Meanwhile, Jerry
+                    spends his time in a nursery made especially for him.</p>
+                <p class="chapterTitle">Chapter 3: Auto Erotic Assimilation</p>
+                <p class="paragraphStyle">Rick, Morty and Summer travel through space and see a distress signal. When
+                    they arrive on the planet, the police ask them for help because things were out of control. Rick
+                    realizes that the cops work for Unity, a former lover of his. Summer is against Unit subduing the
+                    alien planet. Meanwhile, Jerry and Beth start an argument in the house.</p>
+                <p class="chapterTitle">Chapter 4: Total Rickall</p>
+                <p class="paragraphStyle">Jerry's brother shows up by surprise to take the family to Paris. Rick
+                    realizes that he is actually an alien parasite. These parasites want to enter society by creating
+                    false memories in the minds of humans. The scientist protects his family from these and also tries
+                    to prevent the planet from being destroyed.</p>
+                <p class="chapterTitle">Chapter 5: Get Schwifty</p>
+                <p class="paragraphStyle">The Earth is taken over by a giant head that can only be defeated by creating
+                    a musical success. Rick and Morty ask Ice-T for help composing a song for an intergalactic contest.
+                    The winning planet of this contest will manage to survive the giant heads. Meanwhile, the family
+                    goes to a church to pray for the planet to be saved.</p>
+                <p class="chapterTitle">Chapter 6: The Ricks Must Be Crazy</p>
+                <p class="paragraphStyle">After going to the movies, Rick and his two grandchildren head for ice cream.
+                    Upon reaching the car, the scientist realizes that the battery is wrong. Therefore, he asks his
+                    grandson to get into it so he can fix it. Upon entering, Morty realizes that his grandfather has
+                    created a miniature universe.</p>
+                <p class="chapterTitle">Chapter 7: Big Trouble In Little Sanchez</p>
+                <p class="paragraphStyle">While Beth and Jerry leave for another planet to attend couples therapy,
+                    Summer asks Rick to help her. Summer wants her grandfather to become a teenager to protect her from
+                    the high school vampires. After the scientist is expelled from school by his granddaughter, Rick
+                    decides to cancel his copies as a young man.</p>
+                <p class="chapterTitle">Chapter 8: Interdimensional Cable 2: Tempting Fate</p>
+                <p class="paragraphStyle">Jerry ends up in an alien hospital after eating a can of ice cream. This ice
+                    cream is used by Rick to develop a dangerous bacterium, and thus develop a new invention. While
+                    Jerry is in the hospital, Rick manipulates the center's television to watch programs from other
+                    dimensions.</p>
+                <p class="chapterTitle">Chapter 9: Look Who's Purging Now</p>
+                <p class="paragraphStyle">Rick and Morty appear on another planet while searching for windshield washer
+                    fluid. That same day, on that planet, the day of the purge is organized. Rick does not want to leave
+                    because he wants to see how the inhabitants of that planet kill themselves. Things do not end as
+                    expected and the scientist has to ask for help.</p>
+                <p class="chapterTitle">Chapter 10: The Wedding Squanchers</p>
+                <p class="paragraphStyle">The whole family attends the wedding of a friend of Rick's, the Bird Person
+                    and Tammy. In the midst of Rick's toast, it is revealed that Tammy is not who she says she is.
+                    Therefore, the wedding does not end with a happy ending and the family is forced to flee. They all
+                    end up on a planet smaller than Earth, but similar.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="arrow" onclick="toggleContent(this)">▶</div>
+            <p class="seasonTitle">Season 3</p>
+            <div class="content">
+                <p class="chapterTitle">Chapter 1: The Rickshank Rickdemption</p>
+                <p class="paragraphStyle">Rick surrenders to the galactic federation, so that his entire family can
+                    return to Earth. After a few months, Rick is interrogated using a special device to get the equation
+                    of the portal gun. Meanwhile, Summer and Morty plan the rescue of their grandfather that does not go
+                    well.</p>
+                <p class="chapterTitle">Chapter 2: Rickmancing the Stone</p>
+                <p class="paragraphStyle">Things aren't going too well in the family, so Rick takes his grandchildren to
+                    a post-apocalyptic world. In this new adventure, Rick asks Morty to use the gun to get rid of some
+                    characters who are chasing them. In addition, one of these characters offers Summer to join forces
+                    and defeat the weakest.</p>
+                <p class="chapterTitle">Chapter 3: Pickle Rick</p>
+                <p class="paragraphStyle">Beth and Summer go to the garage and observe that Rick has become a pickle.
+                    Something Morty suspected, but thought it was an invention of magic. The whole family goes to
+                    therapy leaving the scientist turned into a pickle alone. While Rick fears for his life by being
+                    thrown into the street by the cat, he must devise a plan to become a human again.</p>
+                <p class="chapterTitle">Chapter 4: Vindicators 3: The Return of Worldender</p>
+                <p class="paragraphStyle">The Vindicators, who are superheroes, call Rick and Morty for help. Morty is
+                    excited because they only call when the world is in danger. Rick intends to save them, but devises a
+                    morbid game when he is drunk. They are on a mission to stop Worldender, but end up in a death trap.
+                </p>
+                <p class="chapterTitle">Chapter 5: The Whirly Dirly Conspiracy</p>
+                <p class="paragraphStyle">
+                    Rick takes Jerry to a hotel where it is supposed to be impossible to die. The scientist wants to
+                    talk to his son-in-law about family problems. During the stay in this place, a small creature tries
+                    to kill Rick because he wants revenge. Meanwhile, Summer fails in her breast augmentation attempt.
+                </p>
+                <p class="chapterTitle">Chapter 6: Rest and Ricklaxation</p>
+                <p class="paragraphStyle">Morty dares to talk to Jessica, the girl he always likes. At that precise
+                    moment, his grandfather appears to take him on a new adventure. This adventure becomes stressful and
+                    lasting. After this adventure, the scientist decides that they should take a vacation. They go to a
+                    spa to release toxins, but everything ends badly.</p>
+                <p class="chapterTitle">Chapter 7: The Ricklantis Mixup</p>
+                <p class="paragraphStyle">Rick and Morty have a new adventure, which happens in the lost city of
+                    Atlantis. Before this new adventure, the grandfather and grandson meet their doubles. These doubles
+                    are actually traveling from reality to asking if they want to help in rebuilding the Ricks' citadel.
+                </p>
+                <p class="chapterTitle">Chapter 8: Morty's Mind Blowers</p>
+                <p class="paragraphStyle">
+                    Rick and Morty kidnap a turtle, which tries to get into the young man's mind. At one point, Morty
+                    decides to throw her off a cliff. Although the turtle is no longer with them, the young man cannot
+                    eliminate his memory. For this, he asks his grandfather to erase this and other memories. Everything
+                    goes well until Rick decides to restore them.</p>
+                <p class="chapterTitle">Chapter 9: The ABC's of Beth</p>
+                <p class="paragraphStyle">
+                    Rick and Beth go to another dimension to try to solve the problems of their childhood. There is
+                    supposed to be a childhood friend of his, Tommy. This friend committed a crime long ago. Meanwhile,
+                    Summer and Morty are going to spend the day with their father. Jerry has a surprise for them, as he
+                    is dating an alien.</p>
+                <p class="chapterTitle">Chapter 10: The Rickchurian Mortydate</p>
+                <p class="paragraphStyle">Rick and Morty are requested by the President of the United States, who
+                    entrusts them with a special mission. This mission consists of capturing a species of alien that is
+                    in the subsoil of Washington. But, the grandfather and grandson, decide to leave the city and
+                    continue their adventures on their own.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="arrow" onclick="toggleContent(this)">▶</div>
+            <p class="seasonTitle">Season 4</p>
+            <div class="content">
+                <p class="chapterTitle">Chapter 1:  Edge of Tomorty: Rick Die Rickpeat</p>
+                <p class="paragraphStyle">Rick takes Morty to a planet for mysterious crystals that have the power to reveal how the wearer will die. However, crystals can be very addictive, and one of the possible deaths that Morty sees when picking it up involves dying next to Jessica, so he tries to control all his actions so that the vision is fulfilled.</p>
+                <p class="chapterTitle">Chapter 2: The Old Man and the Seat</p>
+                <p class="paragraphStyle">Rick goes to his private bathroom and discovers that someone else has used it, which is not to his liking. Jerry creates a mobile app with an alien forging an unexpected alliance and Morty, as always, pays the consequences.</p>
+                <p class="chapterTitle">Chapter 3: One Crew over the Crewcoo's Morty</p>
+                <p class="paragraphStyle">Rick discovers that the supposed loot is held by Miles Knightley, and it does not sit well with him at all. The scientist travels with Morty to HeistCon with the intention of confronting Miles, and Miles challenges them to see which team catches the crystal skull.</p>
+                <p class="chapterTitle">Chapter 4: Claw and Hoarder: Special Ricktim's Morty</p>
+                <p class="paragraphStyle">Morty insists that he wants a dragon, and Rick makes a deal with a wizard who creates a soul contract between Morty and the dragon Malthromaw. For his part, Jerry heads to Florida convinced by a cat who ends up betraying him by accusing Jerry of defecating on the beach.</p>
+                <p class="chapterTitle">Chapter 5: Rattlestar Ricklactica</p>
+                <p class="paragraphStyle">Rick's spaceship breaks down in space and Morty ends up bitten by a space snake. As Rick analyzes the snake in search of an antidote they discover that it is actually an astronaut from a planet of intelligent snakes who are on the verge of a world war.</p>
+                <p class="chapterTitle">Chapter 6: Never Ricking Morty</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 7: Promortyus</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 8: The Vat of Acid Episode</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 9: Childrick of Mort</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 10:  Star Mort Rickturn of the Jerri</p>
+                <p class="paragraphStyle"></p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="arrow" onclick="toggleContent(this)">▶</div>
+            <p class="seasonTitle">Season 5</p>
+            <div class="content">
+                <p class="chapterTitle">Chapter 1: Mort Dinner Rick Andre</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 2: Mortyplicity</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 3: A Rickconvenient Mort</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 4: Rickdependence Spray</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 5: Amortycan Grickfitti</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 6: Rick & Morty's Thanksploitation Spectacular</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 7: Gotron Jerrysis Rickvangelion</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 8: Rickternal Friendshine of the Spotless Mort</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 9: Forgetting Sarick Mortshall</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 10: Rickmurai Jack</p>
+                <p class="paragraphStyle"></p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="arrow" onclick="toggleContent(this)">▶</div>
+            <p class="seasonTitle">Season 6</p>
+            <div class="content">
+                <p class="chapterTitle">Chapter 1: Solaricks</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 2: Rick: A Mort Well Lived</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 3: Bethic Twinstinct</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 4: Night Family</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 5: Final Desmithation</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 6: Juricksic Mort</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 7: Full Meta Jackrick</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 8: Analyze Piss</p>
+                <p class="paragraphStyle"></p>
+                <p class="chapterTitle">Chapter 9: A Rick in King Mortur's Mort</p>
+                <p class="paragraphStyle"></p>
+            </div>
+        </div>
+
+        <script>
+            function toggleContent(arrow) {
+                var container = arrow.parentElement;
+                container.classList.toggle('expanded');
+            }
+        </script>
+    </main>
+
+    <footer>
+        <p>! Visit our others web Pages !</p>
+
+        <div class="footerDiv">
+            <a href="https://www.facebook.com/RickandMorty" target="_blank"><img class="socialMediaLogos"
+                    src="../media/facebook logo.webp" alt="Logo de facebook"></a>
+        </div>
+
+        <div class="footerDiv">
+            <a href="https://www.instagram.com/rickandmorty/" target="_blank"><img class="socialMediaLogos"
+                    src="../media/instagram logo.png" alt="Logo de instagram"></a>
+        </div>
+
+        <div class="footerDiv">
+            <a href="https://twitter.com/RickandMorty" target="_blank"><img class="socialMediaLogos"
+                    src="../media/twitter logo.webp" alt="Logo de twitter"></a>
+        </div>
+
+        <p class="rights"> @All rights reserved</p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,292 @@
+/* --------------------------------------------------------index/footerCSS------------------------------------------------------------------- */
+.headerNav {
+    border: black solid 4px;
+    background-color: white;
+    width: 100%;
+    height: 47px;
+    padding-left: 0px;
+    margin-left: 0px;
+    z-index: 2;
+}
+
+.navLinks {
+    align-items: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    border-right: black solid 3px;
+    padding-left: 8%;
+    padding-right: 8%;
+    z-index: 2;
+}
+
+.navLinksFixer{
+   margin-left: 1%;
+}
+
+.navFixer {
+    padding:  0px;
+}
+
+header {
+    background-color: rgb(113, 240, 113);
+    border-radius: 3px;
+}
+
+.actualPage {
+    background-color: rgb(113, 240, 113);
+    z-index: 1;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+    border-bottom: solid rgb(113, 240, 113) 2px;
+}
+
+.imageLink {
+    margin-bottom: 50px;
+}
+
+.textLink {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 1px;
+    margin-top: 100px;
+    background-color: rgb(113, 240, 113);
+}
+
+.socialMediaLogos {
+    height: 50px;
+    margin-left: 5px;
+}
+
+.footerDiv {
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+}
+
+.rights {
+    text-align: end;
+}
+
+body {
+    background-image: url("../media/rickAndMorty-Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------IndexPhoneCSS----------------------------------------------------------- */
+
+@media (max-width: 991px) {
+
+    .headerNav {
+        border: black solid 4px;
+        background-color: white;
+        width: 100%;
+        height: 48px;
+        padding-top: 0%;
+        padding-left: 0%;
+        margin-left: 0px;
+    }
+
+    .colapseFixer{
+        border: black solid 4px;
+        background-color: white;
+        width: 100%;
+        height: 170px;
+        padding-left: 0px;
+        margin-left: 0px;
+        z-index: 2;
+    }
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------CharactersCSS----------------------------------------------------------- */
+
+.characters {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.charactersImages {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.charactersLeft {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.charactersDescr {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------ContactCSS------------------------------------------------------------------ */
+.contactForm {
+    border: solid black 2px;
+    background-color: white;
+    border-radius: 6px;
+    width: 500px;
+    height: 360px;
+}
+
+label,
+input {
+    font-size: 20px;
+}
+
+.labelSytle {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-left: 6px;
+}
+
+.labelBottons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------About/ChaptersCSS------------------------------------------------------------- */
+.paragraphBackground {
+
+    border: solid rgb(113, 240, 113) 3px;
+    background-color: black;
+    border-radius: 6px;
+    justify-content: center;
+    margin: auto;
+}
+
+.paragraphStyle {
+    color: rgb(113, 240, 113);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.chapterTitle {
+    font-size: medium;
+    color: rgb(113, 240, 113);
+    font-weight: bold;
+    padding-top: 7px;
+    display: inline-flex;
+}
+
+.seasonTitle {
+    font-size: large;
+    color: rgb(113, 240, 113);
+    text-decoration: underline;
+}
+
+.spoiler {
+    font-size: xx-large;
+    background-color: black;
+    width: auto;
+    display: flex;
+    position: relative;
+    left: 40%;
+    display: inline-block;
+    height: auto;
+    justify-content: center;
+    color: red;
+    text-align: center;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------Carrusel de imagenesCSS--------------------------------------------------------- */
+/* Estilo para el carrusel */
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    align-items: 50%;
+}
+
+/* Estilo para las imágenes */
+.mySlides {
+    display: none;
+}
+
+/* Estilo para los botones de navegación */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Estilo para el botón "anterior" */
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Estilo para el botón "siguiente" */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------Cuadro de info capitulos---------------------------------------------------------- */
+
+.container {
+    position: relative;
+    border: 2px solid rgb(113, 240, 113);
+    padding: 10px;
+    width: 80%;
+    background-color: black;
+    border-radius: 6px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+}
+
+.content {
+    display: none;
+    margin-top: 10px;
+}
+
+.container p {
+    margin: 0;
+}
+
+.container.expanded .content {
+    display: block;
+}
