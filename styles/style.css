@@ -149,7 +149,6 @@ body {
     height: 360px;
 }
 
-label,
 input {
     font-size: 20px;
 }
@@ -164,6 +163,26 @@ input {
     display: flex;
     justify-content: space-evenly;
 }
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------ContactPhoneCSS----------------------------------------------------------- */
+
+@media (max-width: 515px){
+    .contactForm {
+        border: solid black 2px;
+        background-color: white;
+        border-radius: 6px;
+        width: 100%;
+        height: 360px;
+    }
+}
+
+
+
+
+
+
+
 
 /* ----------------------------------------------------------------------------------------------------------------------------------- */
 /* -----------------------------------------------------About/ChaptersCSS------------------------------------------------------------- */
@@ -208,40 +227,40 @@ input {
     justify-content: center;
     color: red;
     text-align: center;
+}
 
-    /* ----------------------------------------------------------------------------------------------------------------------------------- */
-    /* -------------------------------------------------Cuadro de info capitulos---------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------Cuadro de info capitulos---------------------------------------------------------- */
 
-    .container {
-        position: relative;
-        border: 2px solid rgb(113, 240, 113);
-        padding: 10px;
-        width: 80%;
-        background-color: black;
-        border-radius: 6px;
-    }
+.container {
+    position: relative;
+    border: 2px solid rgb(113, 240, 113);
+    padding: 10px;
+    width: 80%;
+    background-color: black;
+    border-radius: 6px;
+}
 
-    .arrow {
-        position: absolute;
-        top: 50%;
-        right: 10px;
-        transform: translateY(-50%);
-        cursor: pointer;
-        color: white;
-    }
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+}
 
-    .content {
-        display: none;
-        margin-top: 10px;
-    }
+.content {
+    display: none;
+    margin-top: 10px;
+}
 
-    .container p {
-        margin: 0;
-    }
+.container p {
+    margin: 0;
+}
 
-    .container.expanded .content {
-        display: block;
-    }
+.container.expanded .content {
+    display: block;
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------- */
@@ -288,6 +307,3 @@ input {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-
-
-/* ----------------------------------------------------------------------------------------------------------------------------------- */
