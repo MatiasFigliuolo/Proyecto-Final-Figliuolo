@@ -19,12 +19,12 @@
     z-index: 2;
 }
 
-.navLinksFixer{
-   margin-left: 1%;
+.navLinksFixer {
+    margin-left: 1%;
 }
 
 .navFixer {
-    padding:  0px;
+    padding: 0px;
 }
 
 header {
@@ -96,7 +96,7 @@ body {
         margin-left: 0px;
     }
 
-    .colapseFixer{
+    .colapseFixer {
         border: black solid 4px;
         background-color: white;
         width: 100%;
@@ -208,8 +208,41 @@ input {
     justify-content: center;
     color: red;
     text-align: center;
-}
 
+    /* ----------------------------------------------------------------------------------------------------------------------------------- */
+    /* -------------------------------------------------Cuadro de info capitulos---------------------------------------------------------- */
+
+    .container {
+        position: relative;
+        border: 2px solid rgb(113, 240, 113);
+        padding: 10px;
+        width: 80%;
+        background-color: black;
+        border-radius: 6px;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        color: white;
+    }
+
+    .content {
+        display: none;
+        margin-top: 10px;
+    }
+
+    .container p {
+        margin: 0;
+    }
+
+    .container.expanded .content {
+        display: block;
+    }
+}
 
 /* ----------------------------------------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------------------Carrusel de imagenesCSS--------------------------------------------------------- */
@@ -258,35 +291,3 @@ input {
 
 
 /* ----------------------------------------------------------------------------------------------------------------------------------- */
-/* -------------------------------------------------Cuadro de info capitulos---------------------------------------------------------- */
-
-.container {
-    position: relative;
-    border: 2px solid rgb(113, 240, 113);
-    padding: 10px;
-    width: 80%;
-    background-color: black;
-    border-radius: 6px;
-}
-
-.arrow {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    cursor: pointer;
-    color: white;
-}
-
-.content {
-    display: none;
-    margin-top: 10px;
-}
-
-.container p {
-    margin: 0;
-}
-
-.container.expanded .content {
-    display: block;
-}
