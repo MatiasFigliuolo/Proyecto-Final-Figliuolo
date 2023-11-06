@@ -1,0 +1,13 @@
+h1 {
+    display: inline-block;
+    font-size: 50px;
+    border-bottom: solid rgb(113, 240, 113) 2px;
+  }
+
+body {
+    background-image: url("../media/rickAndMorty-Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+  }

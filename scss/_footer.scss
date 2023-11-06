@@ -1,0 +1,20 @@
+footer {
+    padding-top: 1px;
+    margin-top: 100px;
+    background-color: rgb(113, 240, 113);
+}
+
+.socialMediaLogos {
+    height: 50px;
+    margin-left: 5px;
+}
+
+.footerDiv {
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+}
+
+.rights {
+    text-align: end;
+}

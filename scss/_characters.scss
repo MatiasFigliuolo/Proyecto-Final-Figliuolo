@@ -1,0 +1,26 @@
+.characters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  
+  .charactersImages {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    margin-bottom: 5px;
+  }
+  
+  .charactersLeft {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .charactersDescr {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  
