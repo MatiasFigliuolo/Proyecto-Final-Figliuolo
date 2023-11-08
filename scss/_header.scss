@@ -27,11 +27,11 @@
 }
 
 header {
-    background-color: rgb(113, 240, 113);
+    background-color: $rickAndMortyColor;
     border-radius: 3px;
 }
 
 .actualPage {
-    background-color: rgb(113, 240, 113);
+    background-color: $rickAndMortyColor;
     z-index: 1;
 }

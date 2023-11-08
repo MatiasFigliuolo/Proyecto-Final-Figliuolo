@@ -1,0 +1,35 @@
+
+/* ----------------------------------------------------------IndexPhoneSCSS----------------------------------------------------------- */
+@media (max-width: 991px) {
+    .headerNav {
+      border: black solid 4px;
+      background-color: white;
+      width: 100%;
+      height: 48px;
+      padding-top: 0%;
+      padding-left: 0%;
+      margin-left: 0px;
+    }
+  
+    .colapseFixer {
+      border: black solid 4px;
+      background-color: white;
+      width: 100%;
+      height: 170px;
+      padding-left: 0px;
+      margin-left: 0px;
+      z-index: 2;
+    }
+  }
+
+  /* --------------------------------------------------------ContactPhoneSCSS--------------------------------------------------------- */
+
+@media (max-width: 515px) {
+    .contactForm {
+      border: solid black 2px;
+      background-color: white;
+      border-radius: 6px;
+      width: 100%;
+      height: 360px;
+    }
+  }

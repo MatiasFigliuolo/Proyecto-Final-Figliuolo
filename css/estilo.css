@@ -18,31 +18,10 @@ body {
 }
 
 .textLink {
-  color: white;
   text-decoration: none;
+  color: white;
 }
 
-/* ----------------------------------------------------------IndexPhoneSCSS----------------------------------------------------------- */
-@media (max-width: 991px) {
-  .headerNav {
-    border: black solid 4px;
-    background-color: white;
-    width: 100%;
-    height: 48px;
-    padding-top: 0%;
-    padding-left: 0%;
-    margin-left: 0px;
-  }
-  .colapseFixer {
-    border: black solid 4px;
-    background-color: white;
-    width: 100%;
-    height: 170px;
-    padding-left: 0px;
-    margin-left: 0px;
-    z-index: 2;
-  }
-}
 /* ---------------------------------------------------Carrusel de imagenesCSS--------------------------------------------------------- */
 /* Estilo para el carrusel */
 .slideshow-container {
@@ -147,7 +126,7 @@ footer {
 
 .contactForm {
   border: solid black 2px;
-  background-color: white;
+  background-color: rgb(113, 240, 113);
   border-radius: 6px;
   width: 500px;
   height: 360px;
@@ -178,24 +157,11 @@ input {
     height: 360px;
   }
 }
-.characters {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-}
-
 .charactersImages {
   width: 130px;
   height: 130px;
   object-fit: contain;
   margin-bottom: 5px;
-}
-
-.charactersLeft {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 20px;
 }
 
 .charactersDescr {
@@ -275,6 +241,38 @@ input {
 }
 .container.expanded .content {
   display: block;
+}
+
+/* ----------------------------------------------------------IndexPhoneSCSS----------------------------------------------------------- */
+@media (max-width: 991px) {
+  .headerNav {
+    border: black solid 4px;
+    background-color: white;
+    width: 100%;
+    height: 48px;
+    padding-top: 0%;
+    padding-left: 0%;
+    margin-left: 0px;
+  }
+  .colapseFixer {
+    border: black solid 4px;
+    background-color: white;
+    width: 100%;
+    height: 170px;
+    padding-left: 0px;
+    margin-left: 0px;
+    z-index: 2;
+  }
+}
+/* --------------------------------------------------------ContactPhoneSCSS--------------------------------------------------------- */
+@media (max-width: 515px) {
+  .contactForm {
+    border: solid black 2px;
+    background-color: white;
+    border-radius: 6px;
+    width: 100%;
+    height: 360px;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

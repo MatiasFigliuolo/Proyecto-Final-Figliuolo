@@ -1,6 +1,6 @@
 
 .paragraphBackground {
-    border: solid rgb(113, 240, 113) 3px;
+    border: solid $rickAndMortyColor 3px;
     background-color: black;
     border-radius: 6px;
     justify-content: center;
@@ -8,14 +8,14 @@
   }
   
   .paragraphStyle {
-    color: rgb(113, 240, 113);
+    color: $rickAndMortyColor;
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
   }
   
   .chapterTitle {
     font-size: medium;
-    color: rgb(113, 240, 113);
+    color: $rickAndMortyColor ;
     font-weight: bold;
     padding-top: 7px;
     display: inline-flex;
@@ -23,7 +23,7 @@
   
   .seasonTitle {
     font-size: large;
-    color: rgb(113, 240, 113);
+    color: $rickAndMortyColor;
     text-decoration: underline;
   }
   
@@ -46,7 +46,7 @@
 
 .container {
     position: relative;
-    border: 2px solid rgb(113, 240, 113);
+    border: 2px solid $rickAndMortyColor;
     padding: 10px;
     width: 80%;
     background-color: black;
