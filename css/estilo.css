@@ -5,12 +5,17 @@ h1 {
   border-bottom: solid rgb(113, 240, 113) 2px;
 }
 
+/*
 body {
-  background-image: url("../media/rickAndMorty-Background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  object-fit: contain;
+    background-image: url("../media/rickAndMorty-Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+  }
+*/
+body {
+  background: linear-gradient(to top, white, rgb(113, 240, 113));
 }
 
 .imageLink {
@@ -19,7 +24,12 @@ body {
 
 .textLink {
   text-decoration: none;
-  color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.imageFixer {
+  width: 100%;
 }
 
 /* ---------------------------------------------------Carrusel de imagenesCSS--------------------------------------------------------- */
@@ -91,7 +101,7 @@ body {
 }
 
 .navFixer {
-  padding: 0px;
+  width: 99.3%;
 }
 
 header {
@@ -123,6 +133,7 @@ footer {
 
 .rights {
   text-align: end;
+  margin-bottom: 0px;
 }
 
 .contactForm {
@@ -163,26 +174,29 @@ input {
   height: 130px;
   object-fit: contain;
   margin-bottom: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+  transition: 0.4s;
 }
 
 .charactersDescr {
-  color: white;
-  text-align: center;
+  text-decoration: none;
+  color: black;
   font-weight: bold;
 }
 
-.paragraphBackground {
-  border: solid rgb(113, 240, 113) 3px;
-  background-color: black;
-  border-radius: 6px;
-  justify-content: center;
-  margin: auto;
+.charactersFixer {
+  width: 100%;
+}
+
+.charactersImages:hover {
+  width: 180px;
+  height: 180px;
 }
 
 .paragraphStyle {
-  color: rgb(113, 240, 113);
-  font-family: "Times New Roman", Times, serif;
-  font-size: medium;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 .chapterTitle {
@@ -201,7 +215,6 @@ input {
 
 .spoiler {
   font-size: xx-large;
-  background-color: black;
   width: auto;
   display: flex;
   position: relative;

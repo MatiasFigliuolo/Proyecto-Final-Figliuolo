@@ -1,78 +1,66 @@
+.paragraphStyle {
+  @include anclas;
+}
 
-.paragraphBackground {
-    border: solid $rickAndMortyColor 3px;
-    background-color: black;
-    border-radius: 6px;
-    justify-content: center;
-    margin: auto;
-  }
-  
-  .paragraphStyle {
-    color: $rickAndMortyColor;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-  }
-  
-  .chapterTitle {
-    font-size: medium;
-    color: $rickAndMortyColor ;
-    font-weight: bold;
-    padding-top: 7px;
-    display: inline-flex;
-  }
-  
-  .seasonTitle {
-    font-size: large;
-    color: $rickAndMortyColor;
-    text-decoration: underline;
-  }
-  
-  .spoiler {
-    font-size: xx-large;
-    background-color: black;
-    width: auto;
-    display: flex;
-    position: relative;
-    left: 40%;
-    display: inline-block;
-    height: auto;
-    justify-content: center;
-    color: red;
-    text-align: center;
-  }
+.chapterTitle {
+  font-size: medium;
+  color: $rickAndMortyColor ;
+  font-weight: bold;
+  padding-top: 7px;
+  display: inline-flex;
+}
 
-  
+.seasonTitle {
+  font-size: large;
+  color: $rickAndMortyColor;
+  text-decoration: underline;
+}
+
+.spoiler {
+  font-size: xx-large;
+  width: auto;
+  display: flex;
+  position: relative;
+  left: 40%;
+  display: inline-block;
+  height: auto;
+  justify-content: center;
+  color: red;
+  text-align: center;
+}
+
+
 /* -------------------------------------------------Cuadro de info capitulos---------------------------------------------------------- */
 
 .container {
-    position: relative;
-    border: 2px solid $rickAndMortyColor;
-    padding: 10px;
-    width: 80%;
-    background-color: black;
-    border-radius: 6px;
+  position: relative;
+  border: 2px solid $rickAndMortyColor;
+  padding: 10px;
+  width: 80%;
+  background-color: black;
+  border-radius: 6px;
+}
+
+.arrow {
+  position: absolute;
+  top: 2%;
+  right: 10px;
+  transform: translateY(40%);
+  cursor: pointer;
+  color: white;
+}
+
+.content {
+  display: none;
+  margin-top: 10px;
+}
+
+.container {
+  p {
+    margin: 0;
   }
-  
-  .arrow {
-    position: absolute;
-    top: 2%;
-    right: 10px;
-    transform: translateY(40%);
-    cursor: pointer;
-    color: white;
+
+  &.expanded .content {
+    display: block;
   }
-  
-  .content {
-    display: none;
-    margin-top: 10px;
-  }
-  
-  .container {
-    p {
-      margin: 0;
-    }
-  
-    &.expanded .content {
-      display: block;
-    }
-  }
+}

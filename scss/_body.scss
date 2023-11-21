@@ -1,13 +1,11 @@
 h1 {
-    display: inline-block;
-    font-size: 50px;
-    border-bottom: solid $rickAndMortyColor 2px;
-  }
+  display: inline-block;
+  font-size: 50px;
+  border-bottom: solid $rickAndMortyColor 2px;
+}
 
 body {
-    background-image: url("../media/rickAndMorty-Background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: contain;
-  }
+
+  background: linear-gradient(to top , white , $rickAndMortyColor);
+
+}

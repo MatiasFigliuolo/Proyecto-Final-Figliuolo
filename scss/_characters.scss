@@ -3,10 +3,19 @@
   height: 130px;
   object-fit: contain;
   margin-bottom: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+  transition: 0.4s;
 }
 
 .charactersDescr {
-  color: white;
-  text-align: center;
-  font-weight: bold;
+  @include anclas;
+}
+
+.charactersFixer {
+  width: 100%;
+}
+
+.charactersImages:hover {
+  width: 180px;
+  height: 180px;
 }
