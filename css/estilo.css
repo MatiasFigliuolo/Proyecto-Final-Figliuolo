@@ -5,15 +5,6 @@ h1 {
   border-bottom: solid rgb(113, 240, 113) 2px;
 }
 
-/*
-body {
-    background-image: url("../media/rickAndMorty-Background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: contain;
-  }
-*/
 body {
   background: linear-gradient(to top, white, rgb(113, 240, 113));
 }
@@ -97,11 +88,15 @@ body {
 }
 
 .navLinksFixer {
-  margin-left: 1%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-right: 0px;
 }
 
 .navFixer {
   width: 99.3%;
+  padding: 0px;
+  margin: 0px;
 }
 
 header {
@@ -137,7 +132,7 @@ footer {
 }
 
 .contactForm {
-  border: solid black 2px;
+  padding: 2px;
   background-color: rgb(113, 240, 113);
   border-radius: 6px;
   width: 500px;
@@ -193,10 +188,15 @@ input {
   height: 180px;
 }
 
-.paragraphStyle {
+.mainParagraph {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+
+.paragraphStyle {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(113, 240, 113);
 }
 
 .chapterTitle {
@@ -258,7 +258,7 @@ input {
 }
 
 /* ----------------------------------------------------------IndexPhoneSCSS----------------------------------------------------------- */
-@media (max-width: 991px) {
+@media (max-width: 991.27px) {
   .headerNav {
     border: black solid 4px;
     background-color: white;
