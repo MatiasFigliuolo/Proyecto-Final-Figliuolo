@@ -133,6 +133,7 @@ footer {
 
 .contactForm {
   padding: 2px;
+  border: black solid 2px;
   background-color: rgb(113, 240, 113);
   border-radius: 6px;
   width: 500px;
@@ -170,6 +171,7 @@ input {
   object-fit: contain;
   margin-bottom: 5px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
   transition: 0.4s;
 }
 
@@ -195,7 +197,7 @@ input {
 }
 
 .paragraphStyle {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   color: rgb(113, 240, 113);
 }
 
@@ -205,6 +207,8 @@ input {
   font-weight: bold;
   padding-top: 7px;
   display: inline-flex;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .seasonTitle {
